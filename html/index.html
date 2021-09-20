@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Rolling</title>
+    <script src="principal.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <h1>TIENDA RAMA MASTER</h1>
+    <h2>Rama rodrigo</h2>
+
+    <div class="row row-cols-3 row-cols-md-3 g-4 mx-5" id="card">
+      <div class="col">
+        <div class="card0 h-80" style="max-width: 50%;" id="Cuerpo">
+          <img src="../imagenes/INMG3.png" class=" card-img-top" alt="Icono de tienda">
+          <div class="card-body text-center">
+            <button class=" btn btn-danger ">Tiendas</button>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button onclick="crearCard()" class="btn btn-success mx-5" >Agregar Icono</button>
+<br><br>
+    <div class="row row-cols-3 row-cols-md-3 g-4 mx-5">
+        <div class="hovereffect">
+            <img class="img-responsive" width="100px" src="../imagenes/INMG3.png" alt="">
+            <div class="overlay">
+               <a class="info" href="#">Tiendas</a>
+            </div>
+        </div>
+    </div>
+<br><br><br><br>
+    <!-- cards group bootstrap -->
+    <div class="row row-cols-1 row-cols-md-5 g-4">
+      <div class="col">
+        <div class="card h-100 mx-5 ">
+          <img src="../imagenes/INMG3.png" class="card-img-top " alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Tiendas</h5>
+          </div>
+        </div>
+      </div>
+  
+
+      
+    </div>
+
+
+
+</body>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</html>
