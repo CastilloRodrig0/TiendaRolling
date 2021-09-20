@@ -1,0 +1,79 @@
+footer {
+    background: linear-gradient(-600deg, #D1D3D6, #b80f22);
+    background-color: #D1D3D6;
+    width: 100%;
+  }
+  
+  .logopagina {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border:#b80f22 solid 3px ;
+    }
+    .logopagina:hover{
+      width: 9.5rem;
+      height: 9.5rem;
+      transition: width, height, 2s;
+    }
+  
+  .redes {
+    color: #D1D3D6;
+    list-style: none;
+  }
+  
+  .contactanos{
+    color: #fff;
+  }
+  
+  h6 {
+    color: #D1D3D6;
+  }
+  
+  .tiendar {
+    color: #fff;
+  }
+  
+  
+  .rrss {
+    font-size: 3em;
+    text-decoration: none;
+    color: #D1D3D6;
+    font-weight: bolder;
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+  
+  
+  .rrss:hover{
+    color: #F2DC07;
+    font-size: 3.3em;
+    text-shadow: 0 0 40px #f6f6f7;
+    transition: color 3s;
+  }
+  .contacto{
+    
+    font-size: 20px;
+    margin-top: 35px;
+    font-weight: 800px;
+  }
+  .titulo-contacto{
+    color: #D1D3D6;
+  }
+  .localizacion{
+    color: #b80f22;
+    font-size: 50px;
+  }
+  .localizacion:hover{
+    color: #F2DC07;
+    font-size: 80px;
+    transition: color 2s;
+  }
+  
+  .ubicacion{
+  color: #D1D3D6;  
+  margin-left: 25px;
+  font-weight: bold;
+  }
+  .mapa{
+    text-decoration: none;
+  }
+  
