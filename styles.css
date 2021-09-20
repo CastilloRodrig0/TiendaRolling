@@ -3,8 +3,7 @@ footer {
     background-color: #D1D3D6;
     width: 100%;
   }
-  
-  .logopagina {
+ .logopagina {
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
@@ -15,43 +14,34 @@ footer {
       height: 9.5rem;
       transition: width, height, 2s;
     }
-  
-  .redes {
+ .redes {
     color: #D1D3D6;
     list-style: none;
   }
-  
-  .contactanos{
+.contactanos{
     color: #fff;
   }
-  
-  h6 {
+h6 {
     color: #D1D3D6;
   }
-  
-  .tiendar {
+.tiendar {
     color: #fff;
   }
-  
-  
-  .rrss {
+.rrss {
     font-size: 3em;
     text-decoration: none;
     color: #D1D3D6;
     font-weight: bolder;
     font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif
   }
-  
-  
-  .rrss:hover{
+.rrss:hover{
     color: #F2DC07;
     font-size: 3.3em;
     text-shadow: 0 0 40px #f6f6f7;
     transition: color 3s;
   }
   .contacto{
-    
-    font-size: 20px;
+   font-size: 20px;
     margin-top: 35px;
     font-weight: 800px;
   }
@@ -67,9 +57,9 @@ footer {
     font-size: 80px;
     transition: color 2s;
   }
-  
-  .ubicacion{
-  color: #D1D3D6;  
+ .ubicacion{
+  color: #D1D3D6; 
+  font-size: 20px; 
   margin-left: 25px;
   font-weight: bold;
   }

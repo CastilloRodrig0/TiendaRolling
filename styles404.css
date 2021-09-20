@@ -1,0 +1,53 @@
+.pag_error{
+    background-image: linear-gradient(225deg, #ece06f 0%, #ECAB0F 99%, #f1d9d3 100%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .mantenimiento {
+        display: block;
+        align-content: center;
+        justify-content: center;
+        height: 280px;
+    }
+    .error_titulo{
+        margin: 0px;
+    }
+    
+    .error_mensaje{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin-top: 20px;
+        height: 100px;
+        width: 100%;
+    }
+    
+    .error_mensaje_container{
+        text-align: center;
+        color: #f4f5f7;
+    }
+    .link_principal{
+        text-decoration: none;
+        color: #f4f5f7;
+    }
+    .error_mensaje_container  h1{
+        font-size: 70px;
+    }
+    .error_mensaje_container  p{
+        font-size: 28px;
+    }
+    
+    .animated {
+        animation-duration: 2.5s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% { transform: translateY(0);}
+        40% {transform: translateY(-30px);}
+        60% {transform: translateY(-15px);}
+    }
+    .bounce {
+        animation-name: bounce;
+    }
