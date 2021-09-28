@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+.navbar{
+    background: linear-gradient(150deg, #b80f22,  #d1d3d6, #f2dc07);
+    background-size: 400% 300%;
+    animation: BgGradient 6s ease infinite;
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    min-height: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.nav-item:hover{
+    background: #b80f22;
+    transition: 2s;
+}
+.dropdown-menu{
+    background-color: #b80f22;
+  
+}
+.form-control{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:x-small;
+}
+@keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+
+
