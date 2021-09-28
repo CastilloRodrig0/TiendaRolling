@@ -1,3 +1,11 @@
+.carousel-inner  .carousel-item  img {
+    object-fit: scale-down;
+    height: 50vh;
+    width: 100%;
+  }
+ .carousel-item .carousel-caption h5 {
+     color: black;
+ }
 footer {
     background: linear-gradient(-600deg, #D1D3D6, #b80f22);
     background-color: #D1D3D6;
@@ -32,7 +40,7 @@ h6 {
     text-decoration: none;
     color: #D1D3D6;
     font-weight: bolder;
-    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: impact,'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif
   }
 .rrss:hover{
     color: #F2DC07;
