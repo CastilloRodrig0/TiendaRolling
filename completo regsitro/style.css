@@ -6,7 +6,6 @@ body {
     font-family: sans-serif;
     height: 100vh;
   }
-  
   .login-box {
     width: 320px;
     height: 520px;
@@ -19,7 +18,6 @@ body {
     box-sizing: border-box;
     padding: 70px 30px;
   }
-  
   .login-box .avatar {
     width: 100px;
     height: 100px;
@@ -30,26 +28,22 @@ body {
     top: -50px;
     left: calc(50% - 50px);
   }
-  
   .login-box h1 {
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
     font-size: 22px;
   }
-  
   .login-box label {
     margin: 0;
     padding: 0;
     font-weight: bold;
     display: block;
   }
-  
   .login-box input {
     width: 100%;
     margin-bottom: 20px;
   }
-  
   .login-box input[type="text"], .login-box input[type="password"],.login-box input[type="email"] {
     border: none;
     border-bottom: 1px solid #fff;
@@ -59,7 +53,6 @@ body {
     color: #fff;
     font-size: 16px;
   }
-  
   .login-box input[type="submit"] {
     border: none;
     outline: none;
@@ -68,22 +61,18 @@ body {
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
-    
   }
-  
-  .login-box button[type="submit"]:hover {
+  .login-box input[type="submit"]:hover {
     cursor: pointer;
     background: #ffc107;
     color: #000;
   }
-  
   .login-box a {
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
     color: darkgrey;
   }
-  
   .login-box a:hover {
     color: #fff;
   }
