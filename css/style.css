@@ -36,3 +36,15 @@
 
 
 
+/* gabriel */
+#Destacados {
+    background: linear-gradient(-600deg, #D1D3D6, #b80f22);
+    background-color: #D1D3D6;
+    width: 100%;
+  }
+  .efecto:hover{
+  filter: drop-shadow(0 0 0.75rem   #F2DC07) !important;
+  }
+  h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
